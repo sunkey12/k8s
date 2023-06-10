@@ -1,0 +1,13 @@
+PS C:\Users\arikl\OneDrive\Documents\course1\vs> kubectl set image deployment/nginx-deploy nginx=nginx:1.17
+deployment.apps/nginx-deploy image updated
+PS C:\Users\arikl\OneDrive\Documents\course1\vs> kubectl rollout history deployment
+deployment.apps/hr-web-app 
+REVISION  CHANGE-CAUSE
+1         <none>
+
+deployment.apps/nginx-deploy
+REVISION  CHANGE-CAUSE
+2         <none>
+3         <none>
+4         <none>
+5         <none>
