@@ -1,0 +1,1 @@
+kubectl create service clusterip messaging-service --tcp=6379:6379
