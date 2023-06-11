@@ -3,6 +3,7 @@
 
 ## 2.  Create 5 nginx pods in which two of them is labeled env=prod and three of them is labeled env=dev
 2.  kubectl run nginx-prod-1 --image=nginx --labels=env=prod
+
     kubectl run nginx-prod-2 --image=nginx --labels=env=prod
     kubectl run nginx-dev-1 --image=nginx --labels=env=dev
     kubectl run nginx-dev-2 --image=nginx --labels=env=dev
