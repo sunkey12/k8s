@@ -55,3 +55,13 @@
 
 ## 15. Label the worker node nodeName=nginxnode
 15. kubectl label node node1 nodeName=nginxnode
+
+## 16. yaml --> nginxnode-2-16.yaml
+
+## 17. Verify the pod that it is scheduled with the node selector on the right node… fix it if it’s not behind scheduled.
+17. kubectl get pods -A -o wide
+
+## 18. Verify the pod nginx that we just created has this label
+18. kubectl get pods -l run=nginx
+
+
