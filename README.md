@@ -5,8 +5,11 @@
 2.  kubectl run nginx-prod-1 --image=nginx --labels=env=prod
 
     kubectl run nginx-prod-2 --image=nginx --labels=env=prod
+
     kubectl run nginx-dev-1 --image=nginx --labels=env=dev
+
     kubectl run nginx-dev-2 --image=nginx --labels=env=dev
+
     kubectl run nginx-dev-3 --image=nginx --labels=env=dev
 	
 ## 3. 	Verify all the pods are created with correct labels
