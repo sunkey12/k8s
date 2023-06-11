@@ -8,11 +8,10 @@
     kubectl run nginx-dev-2 --image=nginx --labels=env=dev
     kubectl run nginx-dev-3 --image=nginx --labels=env=dev
 	
-3. 	Verify all the pods are created with correct labels
+## 3. 	Verify all the pods are created with correct labels
 3.  kubectl get pods --show-labels
 
-
-4. Get the pods with label env=dev
+## 4. Get the pods with label env=dev
 4. kubectl get pods -l env=dev
 
 5. Get the pods with label env=dev and also output the labels
