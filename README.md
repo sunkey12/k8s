@@ -103,6 +103,8 @@
 ## 18. Verify the pod nginx that we just created has this label
 18. kubectl get pods -l run=nginx
 
+
+
 ## part3 - Deployment
 
 1. webapp-3-1.yaml
@@ -141,6 +143,12 @@
  11. hpa-pod-3-11.yaml
 
  12. kubectl delete deployments.apps webapp
+ 
+ 13. job-3-14.yaml
+
+
+## part 4
+
 
 
  
