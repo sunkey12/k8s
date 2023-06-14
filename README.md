@@ -103,4 +103,6 @@
 ## 18. Verify the pod nginx that we just created has this label
 18. kubectl get pods -l run=nginx
 
+## part3 - Deployment
+
 
