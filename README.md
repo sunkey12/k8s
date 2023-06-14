@@ -125,11 +125,17 @@
 9. kubectl rollout undo deployment/webapp kubectl describe deployment webapp | grep -i image
 
 10. kubectl set image deployment/webapp webapp=nginx:1.100
+
     kubectl get pods
+
     kubectl rollout undo deployment/webapp
+
     kubectl describe deployment webapp | grep -i image
+
     kubectl rollout history deploy webapp --revision=7
+
     kubectl set image deployment/webapp webapp=nginx:latest
+
     kubectl rollout history deploy webapp
    
 
