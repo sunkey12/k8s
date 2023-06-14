@@ -1,5 +1,31 @@
 ## part 1
 
+1. pod-1.yaml
+
+2. messaging-2.yaml
+
+3. namespace-3.yaml
+
+4. kubectl get nodes -o json > /tmp/nodes-arik
+   nodes-arik.json
+
+5. kubectl create service clusterip messaging-service --tcp=6379:6379
+
+6. messaging-6-service.yaml
+
+7. hr-web-app-7.yaml
+
+8. static-busybox-8.yaml
+
+9. finance-arik-9.yaml
+
+10. pv-analytics-10.yaml
+
+11. redis-storage-11.yaml
+
+12. 
+   
+
 ## 1.  Type the command for: Get pods with label information
 1.  kubectl get pods --show-labels
 
