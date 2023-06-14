@@ -117,6 +117,20 @@
 5. kubectl delete deployment webapp --cascade=true --watch
 
 6. kubectl crear deploy webapp --image=nginx:1.17.1 --port=80 && kubectl describe deployment my-webapp | grep Image
+
+7. kubectl set image deployment/webapp nginx=nginx:1.17.4 kubectl rollout status deployment/webapp
+
+8. kubectl rollout history deployment/webapp
+
+9. kubectl rollout undo deployment/webapp kubectl describe deployment webapp | grep -i image
+
+10. kubectl set image deployment/webapp webapp=nginx:1.100
+    kubectl get pods
+    kubectl rollout undo deployment/webapp
+    kubectl describe deployment webapp | grep -i image
+    kubectl rollout history deploy webapp --revision=7
+    kubectl set image deployment/webapp webapp=nginx:latest
+    kubectl rollout history deploy webapp
    
 
    
