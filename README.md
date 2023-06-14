@@ -23,8 +23,19 @@
 
 11. redis-storage-11.yaml
 
-12. 
-   
+12. persistent-volume-12.yaml
+
+13. nginx-deploy-13.yaml
+    deploy-nginx-afterchange-13.yaml
+    
+14. nginx-resolver-service-14.yaml
+
+15. nginx-critical-15.yaml
+
+16. multi-pod-16.yaml
+
+
+## part 2 
 
 ## 1.  Type the command for: Get pods with label information
 1.  kubectl get pods --show-labels
