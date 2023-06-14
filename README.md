@@ -137,6 +137,14 @@
     kubectl set image deployment/webapp webapp=nginx:latest
 
     kubectl rollout history deploy webapp
+    
+ 11. hpa-pod-3-11.yaml
+
+ 12. kubectl delete deployments.apps webapp
+
+
+ 
+ 
    
 
    
