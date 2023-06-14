@@ -1,5 +1,11 @@
 
-### Part 1
+<div id="bigtext">
+    <span>BIGTEXT</span>
+    <span>Makes Text Big</span>
+</div>
+<script>
+$('#bigtext').bigtext();
+</script>
 
 ## 1.  Type the command for: Get pods with label information
 1.  kubectl get pods --show-labels
