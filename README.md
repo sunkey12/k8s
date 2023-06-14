@@ -107,4 +107,19 @@
 
 1. webapp-3-1.yaml
 
+2. kubectl rollout status deployment webapp
+
+3. kubectl get replicaset -l app=webapp
+
+4. kubectl get replicaset -l app=webapp --export=true --output=yaml > webapprs.yaml
+   kubectl get pods -l app=webapp --export=true --output=yaml > webapp-pods.yaml
+
+5. kubectl delete deployment webapp --cascade=true --watch
+
+6. kubectl crear deploy webapp --image=nginx:1.17.1 --port=80 && kubectl describe deployment my-webapp | grep Image
+   
+
+   
+  
+
 
