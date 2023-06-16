@@ -151,7 +151,25 @@
 
 ## part 4
 
+1. config-4-1.txt
 
+
+## kubectl create configmap keyvalcfgmap --from-file=config-4-1.txt
+## kubectl get configmap keyvalcfgmap -o yaml
+
+apiVersion: v1
+data:
+  config.txt: "key1=arik1\r\nkey2=arik2"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2023-06-16T14:49:37Z"
+  name: keyvalcfgmap
+  namespace: default
+  resourceVersion: "15497"
+  uid: e5b9aca0-d9f1-45f8-a117-1469b894e5e3
+  
+  
+  3. nginx-pod-4-1.yaml
 
  
  
