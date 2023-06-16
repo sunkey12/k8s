@@ -151,10 +151,10 @@
 
 ## part 4
 
-1. config-4-1.txt
+1. config.txt
 
 
-## kubectl create configmap keyvalcfgmap --from-file=config-4-1.txt
+## kubectl create configmap keyvalcfgmap --from-file=config.txt
 ## kubectl get configmap keyvalcfgmap -o yaml
 
 ![image](https://github.com/sunkey12/k8s/assets/95144563/157b25ea-a812-4ecf-9f9e-d3c392388427)
