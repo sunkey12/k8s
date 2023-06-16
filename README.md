@@ -144,7 +144,7 @@
 
  13. kubectl delete deployments.apps webapp
  
- 14. job-3-14.yaml
+ 14.  job-3-14.yaml
 
 
 ## part 4
