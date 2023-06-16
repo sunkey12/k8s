@@ -142,6 +142,8 @@
     
  11. hpa-pod-3-11.yaml
 
+ 12. - 
+
  13. kubectl delete deployments.apps webapp
  
  14.  job-3-14.yaml
